@@ -9,13 +9,17 @@ wheels/
 # Virtual environments
 .venv
 
-Environment Variables
+
+
+
+
+#Environment Variables
 
 .env
 .env.local
 .env.*.local
 
-Python
+#Python
 
 pycache/
 *.py[cod]
@@ -25,19 +29,19 @@ env/
 venv/
 ENV/
 
-Project Specific
+#Project Specific
 
 backend/data/.mp4
 backend/data/.mkv
 backend/data/*.avi
 temp_video.mp4
 
-IDEs
+#IDEs
 
 .vscode/
 .idea/
 
-UV / Dependency Management
+#UV / Dependency Management
 
 .python-version
 uv.lock
