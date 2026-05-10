@@ -41,6 +41,9 @@ temp_video.mp4
 .vscode/
 .idea/
 
+# OS metadata
+.DS_Store
+
 #UV / Dependency Management
 
 .python-version

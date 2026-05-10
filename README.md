@@ -1,8 +1,8 @@
-Agentic Multimodal Compliance Engine
+# Agentic Multimodal Compliance Engine
 
 An industry-grade LLMOps project featuring a stateful Agentic RAG workflow built with LangGraph, Azure OpenAI, and Azure AI Search. This system automates the compliance auditing of multimodal video advertisements by comparing them against regulatory guidelines (FTC & YouTube Ad Specs).
 
-🚀 Key Features
+## Key Features
 
 Agentic Orchestration: Uses LangGraph to manage a multi-node workflow (Indexer -> Auditor).
 
@@ -14,7 +14,7 @@ LLMOps Observability: Full execution tracing and prompt debugging via LangSmith 
 
 Production API: Backend built with FastAPI featuring strict schema validation.
 
-🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -82,7 +82,7 @@ Auditor Node: GPT-4o performs reasoning by comparing the extracted evidence agai
 
 Output: A structured JSON compliance report (Pass/Fail) with severity ratings.
 
-🛠️ Setup
+## Setup
 
 Clone the repository.
 
